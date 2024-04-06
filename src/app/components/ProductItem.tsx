@@ -13,6 +13,13 @@ export default function ListItem({ item }: Props) {
     addToCart(item);
   };
 
+  const itemOffer = item.offer ? (
+    <div className="flex flex-row items-center content-center ">
+      <Image src="/offer.png" width={30} height={30} alt={item.name} />
+      <div className="pl-3">{item.offer}</div>
+    </div>
+  ) : null;
+
   return (
     <div className="flex flex-col  border-2 border-black w-104 h-[500px] mb-5">
       <div className="w-[300px] h-[300px] flex items-center justify-center border-b-2 mb-4">
@@ -25,12 +32,7 @@ export default function ListItem({ item }: Props) {
         </div>
 
         <div className="mb-3">{item.detail}</div>
-        {item.offer ? (
-          <div className="flex flex-row items-center content-center ">
-            <Image src="/offer.png" width={30} height={30} alt={item.name} />
-            <div className="pl-3">{item.offer}</div>
-          </div>
-        ) : null}
+        {itemOffer}
       </div>
       <div className="self-baseline w-full">
         <div className="text-right text-2xl text-emerald-700">
