@@ -14,7 +14,9 @@ exports[`Should show offer 1`] = `
           data-nimg="1"
           decoding="async"
           height="300"
-          src=""
+          loading="lazy"
+          src="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=640&q=75"
+          srcset="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=384&q=75 1x, /_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=640&q=75 2x"
           style="color: transparent;"
           width="300"
         />

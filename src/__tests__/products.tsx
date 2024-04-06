@@ -81,7 +81,7 @@ it("Should show offer", () => {
   const product: IProduct = {
     name: "",
     _id: 0,
-    image: "",
+    image: "http://placehold.it/300x300/999/CCC",
     price: 0,
     detail: "",
     offer: "Offer",
