@@ -1,4 +1,3 @@
-import { IProduct } from "../types/IProduct";
 import CartIcon from "./CartIcon";
 
 export default function Header() {

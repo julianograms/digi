@@ -1,7 +1,6 @@
 import { useContext, createContext, useState } from "react";
 import { IProduct } from "../types/IProduct";
 import Cart from "../components/Cart";
-import { createPortal } from "react-dom";
 
 export type CartItem = { item: IProduct; count: number };
 
