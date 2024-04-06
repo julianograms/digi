@@ -1,5 +1,5 @@
 "use client";
-import ListItem from "./components/ListItem";
+import ListItem from "./components/ProductItem";
 import useProducts from "./hooks/useProducts";
 import { IProduct } from "./types/IProduct";
 

@@ -12,6 +12,7 @@ export default function ListItem({ item }: Props) {
   const addToCartClick = () => {
     addToCart(item);
   };
+
   return (
     <div className="flex flex-col  border-2 border-black w-104 h-[500px] mb-5">
       <div className="w-[300px] h-[300px] flex items-center justify-center border-b-2 mb-4">
