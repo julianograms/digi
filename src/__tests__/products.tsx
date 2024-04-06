@@ -1,18 +1,18 @@
 import { fireEvent, render } from "@testing-library/react";
-import Page from "../app/page";
 import { CartContext, CartProvider } from "@/app/context/CartContext";
 import CartIcon from "@/app/components/CartIcon";
-import ListItem from "@/app/components/ListItem";
+import ListItem from "@/app/components/ProductItem";
 import Cart from "@/app/components/Cart";
+import { IProduct } from "@/app/types/IProduct";
 
 it("Show cart count from context", () => {
-  const a = [
+  const cartItems = [
     { count: 34, item: { name: "", _id: 0, image: "", price: 0, detail: "" } },
   ];
 
   const element = render(
     <CartContext.Provider
-      value={{ addToCart: () => {}, products: a, toggleCart: () => {} }}
+      value={{ addToCart: () => {}, products: cartItems, toggleCart: () => {} }}
     >
       <CartIcon />
     </CartContext.Provider>
@@ -75,4 +75,19 @@ it("Should show the cart products after click", async () => {
   const cartCounter = await element.findByTestId("cart-modal");
 
   expect(cartCounter).toMatchSnapshot();
+});
+
+it("Should show offer", () => {
+  const product: IProduct = {
+    name: "",
+    _id: 0,
+    image: "",
+    price: 0,
+    detail: "",
+    offer: "Offer",
+  };
+
+  const element = render(<ListItem item={product} />);
+
+  expect(element.baseElement).toMatchSnapshot();
 });

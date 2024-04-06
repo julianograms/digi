@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Should show offer 1`] = `
+<body>
+  <div>
+    <div
+      class="flex flex-col  border-2 border-black w-104 h-[500px] mb-5"
+    >
+      <div
+        class="w-[300px] h-[300px] flex items-center justify-center border-b-2 mb-4"
+      >
+        <img
+          alt=""
+          data-nimg="1"
+          decoding="async"
+          height="300"
+          src=""
+          style="color: transparent;"
+          width="300"
+        />
+      </div>
+      <div
+        class="w-64 pl-6 flex flex-col flex-1"
+      >
+        <div>
+          <span
+            class="text-lg font-bold"
+          />
+        </div>
+        <div
+          class="mb-3"
+        />
+        <div
+          class="flex flex-row items-center content-center "
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height="30"
+            loading="lazy"
+            src="/_next/image?url=%2Foffer.png&w=64&q=75"
+            srcset="/_next/image?url=%2Foffer.png&w=32&q=75 1x, /_next/image?url=%2Foffer.png&w=64&q=75 2x"
+            style="color: transparent;"
+            width="30"
+          />
+          <div
+            class="pl-3"
+          >
+            Offer
+          </div>
+        </div>
+      </div>
+      <div
+        class="self-baseline w-full"
+      >
+        <div
+          class="text-right text-2xl text-emerald-700"
+        >
+          $ 0.00
+        </div>
+        <button
+          class=" text-center w-full justify-center p-4 bg-black text-white"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
 exports[`Should show the cart products after click 1`] = `
 <div
   class="fixed right-0 h-screen md:h-fit w-full md:w-[25rem] z-10  bg-white border border-black"
