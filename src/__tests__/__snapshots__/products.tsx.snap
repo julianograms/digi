@@ -31,7 +31,7 @@ exports[`Should show the cart products after click 1`] = `
     class="flex flex-col w-full"
   >
     <div
-      class="border-b w-full parent"
+      class="border-b w-full cart-list-grid"
     >
       <div
         class="w-[40px] h-[40px] flex items-center justify-center"
@@ -71,7 +71,7 @@ exports[`Should show the cart products after click 1`] = `
       </div>
     </div>
     <div
-      class="border-b w-full parent"
+      class="border-b w-full cart-list-grid"
     >
       <div
         class="w-[40px] h-[40px] flex items-center justify-center"
