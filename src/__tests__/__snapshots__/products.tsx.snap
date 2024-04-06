@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should show the cart products after click 1`] = `
+<div
+  class="fixed right-0 h-screen md:h-fit w-full md:w-[25rem] z-10  bg-white border border-black"
+  data-testid="cart-modal"
+>
+  <div
+    class="h-16 flex items-center justify-between  border-b-2 border-black"
+  >
+    <div
+      class="text-black text-2xl pl-5"
+    >
+      CART
+    </div>
+    <button>
+      <img
+        alt="cart"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fclose.png&w=96&q=75"
+        srcset="/_next/image?url=%2Fclose.png&w=48&q=75 1x, /_next/image?url=%2Fclose.png&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+    </button>
+  </div>
+  <div
+    class="flex flex-col w-full"
+  >
+    <div
+      class="border-b w-full parent"
+    >
+      <div
+        class="w-[40px] h-[40px] flex items-center justify-center"
+      >
+        <img
+          alt="cart"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=96&q=75"
+          srcset="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=48&q=75 1x, /_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <div
+        class="flex items-center content-center pl-2"
+      >
+        <div
+          class="text-center"
+        />
+      </div>
+      <div
+        class="p-2 bg-gray-300 text-center"
+      >
+        1
+      </div>
+      <div
+        class="flex items-center content-center"
+      >
+        <div
+          class="ml-auto"
+        >
+          $ 0.00
+        </div>
+      </div>
+    </div>
+    <div
+      class="border-b w-full parent"
+    >
+      <div
+        class="w-[40px] h-[40px] flex items-center justify-center"
+      >
+        <img
+          alt="cart"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=96&q=75"
+          srcset="/_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=48&q=75 1x, /_next/image?url=http%3A%2F%2Fplacehold.it%2F300x300%2F999%2FCCC&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <div
+        class="flex items-center content-center pl-2"
+      >
+        <div
+          class="text-center"
+        />
+      </div>
+      <div
+        class="p-2 bg-gray-300 text-center"
+      >
+        1
+      </div>
+      <div
+        class="flex items-center content-center"
+      >
+        <div
+          class="ml-auto"
+        >
+          $ 0.00
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="flex text-2xl mt-4 mb-4"
+  >
+    <div
+      class="ml-auto pl-6 pr-2"
+    >
+      Total:
+    </div>
+    <div>
+      $0.00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Show cart count from context 1`] = `
+<body>
+  <div>
+    <button
+      class="relative bg-white h-full flex items-center content-center"
+    >
+      <div
+        class="absolute mb-8 ml-auto mr-auto w-8 left-0 right-0 bg-red-600 rounded-full text-center"
+      >
+        <div
+          data-testid="cart-counter"
+        >
+          34
+        </div>
+      </div>
+      <div
+        class="mt-4"
+      >
+        <img
+          alt="cart"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fcart.png&w=96&q=75"
+          srcset="/_next/image?url=%2Fcart.png&w=48&q=75 1x, /_next/image?url=%2Fcart.png&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+    </button>
+  </div>
+</body>
+`;
